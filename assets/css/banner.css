@@ -1,0 +1,76 @@
+.banner {
+	background-color: transparent;
+	height: calc(80vh);
+}
+
+div.banner-information {
+	display: inline-block;
+	flex-basis: 100%;
+}
+
+div.banner-information p.title {
+	font-size: 64px;
+}
+
+div.banner-information p.subtitle {
+	margin: 1rem 0;
+}
+
+div.banner-information button {
+	padding: 0.5rem 1.5rem;
+	border-radius: 16px;
+	background-color: #FE5B02;
+	border: 0;
+	cursor: pointer;
+	transition: 0.5s;
+	color: #f2f2f2;
+}
+
+div.banner-information button:hover {
+	scale: 1.2;
+	background-color: #f2f2f2;
+	color: #FE5B02;
+}
+
+div.banner-information div.banner-tag {
+	width: fit-content;
+	margin: 2rem 0;
+}
+
+div.banner-tag_item {
+	margin: 1rem 0.2rem;
+	border-radius: 8px;
+	padding: 0.5rem 1.5rem;
+	display: inline-block;
+	font-weight: bolder;
+}
+
+div.banner-profile {
+	flex-basis: 100%;
+	position: relative;
+	margin-top: -250px;
+}
+
+div.banner-profile img {
+	width: 300px;
+	margin-left: 145px;
+	margin-top: -75px;
+	position: absolute;
+	border-radius: 350px;
+	object-fit: cover;
+}
+
+div.banner-profile div.banner-profile_container {
+	position: absolute;
+	background-color: #FE5B02;
+	transform: rotate(40deg);
+	top: -200px;
+	right: -55px;
+	width: 330px;
+	height: 850px;
+	border-radius: 0 0 300px 300px;
+
+	box-shadow: 12px 10px 42px -17px rgba(0,0,0,0.49);
+-webkit-box-shadow: 12px 10px 42px -17px rgba(0,0,0,0.49);
+-moz-box-shadow: 12px 10px 42px -17px rgba(0,0,0,0.49);
+}

@@ -1,0 +1,36 @@
+nav {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	background-color: transparent;
+	height: 72px;
+	padding: 0.5rem 0;
+}
+
+nav a {
+	margin: 0 1rem;
+	text-decoration: none;
+	color: #000;
+	transition: color 0.5s;
+}
+
+nav a:hover {
+	color: #FE5B02;
+}
+
+nav button.banner-action {
+	padding: 0.5rem 1.5rem;
+	border-radius: 16px;
+	background-color: #f2f2f2;
+	border: 0;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: -10px;
+	transition: 0.5s;
+}
+
+nav button.banner-action:hover {
+	scale: 1.1;
+	color: #FE5B02;
+}
